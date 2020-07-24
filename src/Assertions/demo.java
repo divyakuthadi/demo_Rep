@@ -9,7 +9,7 @@ public class demo {
 	@Test
 	public void soft() {
 		
-	System.out.println("launch1");
+	System.out.println("launch1***************");
 	Assert.assertEquals(true, true);
 
 	System.out.println("launch2");
