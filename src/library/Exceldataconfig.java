@@ -14,8 +14,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import com.google.common.collect.Table.Cell;
 
 public class Exceldataconfig {
-	XSSFWorkbook wb;
-	XSSFSheet sheet;
+	public static XSSFWorkbook wb;
+	public static XSSFSheet sheet;
 
 		public Exceldataconfig(String Excelpath) throws IOException {
 			File Src = new File(Excelpath);

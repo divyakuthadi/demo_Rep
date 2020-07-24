@@ -29,5 +29,6 @@
 	<classpathentry kind="lib" path="C:/Users/My/Downloads/poi-4.1.1/poi-scratchpad-4.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/My/Downloads/poi-4.1.1/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/My/Downloads/apache-log4j-2.13.0-bin.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

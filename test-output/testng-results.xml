@@ -2,103 +2,45 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10510" started-at="2019-12-30T22:39:06 EST" finished-at="2019-12-30T22:39:16 EST">
+  <suite name="Default suite" duration-ms="107417" started-at="2020-07-10T13:41:28 EDT" finished-at="2020-07-10T13:43:15 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10510" started-at="2019-12-30T22:39:06 EST" finished-at="2019-12-30T22:39:16 EST">
-      <class name="selenium.xpath_practise">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:selenium.xpath_practise@61f8bee4]" name="setup" duration-ms="10341" started-at="2019-12-30T22:39:06 EST" finished-at="2019-12-30T22:39:16 EST">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+    <test name="Default test" duration-ms="107417" started-at="2020-07-10T13:41:28 EDT" finished-at="2020-07-10T13:43:15 EDT">
+      <class name="SeleniumAdvance.ISEnabled">
+        <test-method status="FAIL" signature="launch()[pri:0, instance:SeleniumAdvance.ISEnabled@61f8bee4]" name="launch" duration-ms="107241" started-at="2020-07-10T13:41:28 EDT" finished-at="2020-07-10T13:43:15 EDT">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 77
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.79)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MY-PC', ip: '192.168.0.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x002BEB13+1501971]
-Ordinal0 [0x0023F6D1+980689]
-Ordinal0 [0x001C765F+489055]
-Ordinal0 [0x0015F2F4+62196]
-Ordinal0 [0x0015BCDA+48346]
-Ordinal0 [0x00179800+169984]
-Ordinal0 [0x0017942D+169005]
-Ordinal0 [0x001778EB+162027]
-Ordinal0 [0x00160AC7+68295]
-Ordinal0 [0x00161B40+72512]
-Ordinal0 [0x00161AD9+72409]
-Ordinal0 [0x00258F37+1085239]
-GetHandleVerifier [0x0035D7ED+503293]
-GetHandleVerifier [0x0035D580+502672]
-GetHandleVerifier [0x003646AC+531644]
-GetHandleVerifier [0x0035DFFA+505354]
-Ordinal0 [0x00250606+1050118]
-Ordinal0 [0x0025047F+1049727]
-Ordinal0 [0x0025AF9B+1093531]
-Ordinal0 [0x0025B103+1093891]
-Ordinal0 [0x0025A095+1089685]
-BaseThreadInitThunk [0x7642343D+18]
-RtlInitializeExceptionChain [0x77379812+99]
-RtlInitializeExceptionChain [0x773797E5+54]
-]]>
+System info: host: 'MY-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\My\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb5d8e8b5f35fb43181d6bce3e6d5843]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 77
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.79)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'MY-PC', ip: '192.168.0.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-Ordinal0 [0x002BEB13+1501971]
-Ordinal0 [0x0023F6D1+980689]
-Ordinal0 [0x001C765F+489055]
-Ordinal0 [0x0015F2F4+62196]
-Ordinal0 [0x0015BCDA+48346]
-Ordinal0 [0x00179800+169984]
-Ordinal0 [0x0017942D+169005]
-Ordinal0 [0x001778EB+162027]
-Ordinal0 [0x00160AC7+68295]
-Ordinal0 [0x00161B40+72512]
-Ordinal0 [0x00161AD9+72409]
-Ordinal0 [0x00258F37+1085239]
-GetHandleVerifier [0x0035D7ED+503293]
-GetHandleVerifier [0x0035D580+502672]
-GetHandleVerifier [0x003646AC+531644]
-GetHandleVerifier [0x0035DFFA+505354]
-Ordinal0 [0x00250606+1050118]
-Ordinal0 [0x0025047F+1049727]
-Ordinal0 [0x0025AF9B+1093531]
-Ordinal0 [0x0025B103+1093891]
-Ordinal0 [0x0025A095+1089685]
-BaseThreadInitThunk [0x7642343D+18]
-RtlInitializeExceptionChain [0x77379812+99]
-RtlInitializeExceptionChain [0x773797E5+54]
-
+System info: host: 'MY-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\My\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:50541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb5d8e8b5f35fb43181d6bce3e6d5843
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at selenium.xpath_practise.setup(xpath_practise.java:16)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at SeleniumAdvance.ISEnabled.launch(ISEnabled.java:18)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -129,11 +71,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-      </class> <!-- selenium.xpath_practise -->
+        </test-method> <!-- launch -->
+      </class> <!-- SeleniumAdvance.ISEnabled -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

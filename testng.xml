@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="selenium.xpath_practise"/>
+      <class name="selenium.BootStrapDropDown"/>
+      <class name="selenium.locators_practice"/>
+      <class name="selenium.webtable"/>
+      <class name="selenium.selenium_browser_launch"/>
+      <class name="selenium.windowhandlers"/>
+      <class name="selenium.handleframes"/>
+      <class name="selenium.calender"/>
+      <class name="selenium.handlewebtable"/>
+      <class name="selenium.brokenlinks"/>
+      <class name="selenium.login"/>
+      <class name="selenium.handleCalender"/>
+      <class name="selenium.handlingwebtable"/>
+      <class name="selenium.windowhandle"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

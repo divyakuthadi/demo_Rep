@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="3" thread-count="3" parallel="methods" >
+   <test name = "suite1">
+<classes>
+         <class name ="TestNGPractise.sample1"/>
+         <class name ="TestNGPractise.sample2"/>
+         <class name ="TestNGPractise.sample3"/>
+</classes>
+   </test>
+   <test name="suite2">
+   <classes>
+   <class name="TestNgprC2.sample1"/>
+   </classes>
+   </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite"  >
+   <test name = "parameterisation">
+   <parameter name="url" value="https://www.facebook.com/"/>
+   <parameter name="emailid" value="divya.kuthadi@gmail.com"/>
+  
+
+      <classes>
+         <class name = "Parameters.parameterTestClass" />
+      </classes>
+   
+   </test>
+</suite>

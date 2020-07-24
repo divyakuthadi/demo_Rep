@@ -13,7 +13,7 @@ WebDriver driver;
 	
 @Test
 public void login() {
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\My\\Downloads\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","C:\\Program Files\\drivers.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/r.php");
 		driver.manage().window().maximize();

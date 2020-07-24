@@ -11,7 +11,7 @@ public class webelements {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\My\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\My\\Downloads\\chromedriver_win32.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.guru99.com/test/ajax.html");
 		driver.manage().window().maximize();
